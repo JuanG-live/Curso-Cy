@@ -1,0 +1,15 @@
+{
+  "name": "curso-cy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.1.0"
+  }
+}
