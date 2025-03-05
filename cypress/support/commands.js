@@ -1,5 +1,3 @@
-
-
     Cypress.Commands.add('escribir', (selector, dato)=> {
         cy.get(selector).clear().type(dato);
     })
