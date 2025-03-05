@@ -17,5 +17,9 @@ describe('SauceDemo', () => {
         cy.login_incorrecto();
         cy.asertion_loginError();
     })
+    
+    it('logout correcto', ()=>{
+        cy.logout();
+    })
 })
 

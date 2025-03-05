@@ -17,3 +17,10 @@ Cypress.Commands.add('login_incorrecto', ()=> {
 Cypress.Commands.add('asertion_loginError', () =>{
     cy.get("[data-test='error']").should('have.text', 'Epic sadface: Username and password do not match any user in this service')
 })
+
+Cypress.Commands.add('logout', () =>{
+    cy.loginOK();
+    cy.get('#react-burger-menu-btn').click();
+    cy.get('[data-test="logout-sidebar-link"]').click();
+    cy.get('[data-test="login-button"]').should('be.visible');
+})
