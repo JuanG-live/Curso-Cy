@@ -1,0 +1,13 @@
+{
+    "login":{
+        "username": "[data-test='username']",
+        "password": "[data-test='password']",
+        "btnLogin": "[data-test='login-button']",
+        "errorMsg": "[data-test='error']"
+    },
+
+    "menu": {
+        "menu": "#react-burger-menu-btn",
+        "logout":"[data-test='logout-sidebar-link']"
+    }
+}

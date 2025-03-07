@@ -19,7 +19,6 @@ Cypress.Commands.add('asertion_loginError', () =>{
 })
 
 Cypress.Commands.add('logout', () =>{
-    cy.loginOK();
     cy.get('#react-burger-menu-btn').click();
     cy.get('[data-test="logout-sidebar-link"]').click();
     cy.get('[data-test="login-button"]').should('be.visible');

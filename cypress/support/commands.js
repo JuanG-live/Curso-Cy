@@ -6,7 +6,7 @@
         cy.get(selector).click();
     })
 
-    Cypress.Commands.add('asertion_text', ()=>{
+    Cypress.Commands.add('asertion_text', (selector,texto)=>{
         cy.get(selector).should('have.text',texto);
     })
 
