@@ -19,6 +19,7 @@ describe('SauceDemo', () => {
     })
     
     it('logout correcto', ()=>{
+        cy.loginOK();
         cy.logout();
     })
 })

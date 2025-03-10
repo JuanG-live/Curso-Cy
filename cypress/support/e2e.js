@@ -17,3 +17,4 @@
 import './commands'
 import './acciones'
 import './accionesPom'
+import 'cypress-mochawesome-reporter/register';

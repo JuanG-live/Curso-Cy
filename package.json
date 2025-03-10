@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run",
+    "testUnico":"npx cypress run --spec cypress/e2e/hovers.cy.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cypress": "^14.1.0"
+    "cypress": "^14.1.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
   },
   "devDependencies": {
     "cypress-real-events": "^1.14.0"
