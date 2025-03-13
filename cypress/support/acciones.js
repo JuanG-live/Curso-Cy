@@ -23,3 +23,10 @@ Cypress.Commands.add('logout', () =>{
     cy.get('[data-test="logout-sidebar-link"]').click();
     cy.get('[data-test="login-button"]').should('be.visible');
 })
+
+Cypress.Commands.add('loginSession', ()=> {
+    cy.session('Login', () => {
+        cy.visit('/');
+        cy.loginOK();
+    })
+})

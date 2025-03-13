@@ -15,3 +15,7 @@
         cy.get('[data-test="logout-sidebar-link"]').click();
         cy.get('[data-test="login-button"]').should('be.visible');
     })
+
+    Cypress.Commands.add('inventoryAccess', ()=>{
+        cy.visit('/inventory.html',{failOnStatusCode: false})
+    })
