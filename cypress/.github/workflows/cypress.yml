@@ -1,0 +1,31 @@
+name: Run Cypress Tests
+
+# Define los eventos que activarán el workflow
+on:
+  push: # Se ejecuta cuando hay un push
+    branches:
+      - main # Cambia por la rama que desees monitorear
+  pull_request: # Se ejecuta al crear o actualizar un PR hacia main
+
+jobs:
+  cypress-tests:
+    runs-on: ubuntu-latest # Usa un entorno de Linux para ejecutar las pruebas
+
+    steps:
+      # Paso 1: Clonar el repositorio
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Paso 2: Configurar Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16 # Cambia si necesitas otra versión
+
+      # Paso 3: Instalar dependencias
+      - name: Install dependencies
+        run: npm install
+
+      # Paso 4: Ejecutar las pruebas de Cypress
+      - name: Run Cypress tests
+        run: npx cypress run
