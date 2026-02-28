@@ -1,88 +1,68 @@
-# Curso de Automatización con Cypress  
+# 🚀 Cypress Automation Portfolio
 
-Este repositorio contiene mi progreso y prácticas realizadas durante el curso de **Automatización con Cypress** que estoy tomando en [Galiclerc](https://galiclerc.com). El objetivo es aprender a dominar Cypress para aplicarlo en proyectos de testing automatizado y, eventualmente, conseguir un trabajo en el área de QA Automation.  
-
----
-
-## Temario del curso  
-
-El curso está estructurado en las siguientes clases:  
-
-### Introducción a Cypress  
-- ¿Qué es Cypress y por qué usarlo?  
-- Instalación y configuración de Cypress.  
-
-### Clases prácticas  
-1. **Clase 1 - Instalación**  
-   - Configuración inicial del entorno de trabajo.  
-2. **Clase 2 - Selectores**  
-   - Uso de selectores para interactuar con elementos en la página.  
-3. **Clase 3 - Fixtures**  
-   - Manejo de datos estáticos con fixtures.  
-4. **Clase 4 - Cypress-real-events**  
-   - Simulación de interacciones reales del usuario.  
-5. **Clase 5 - Commands**  
-   - Creación y uso de comandos personalizados.  
-6. **Clase 6 - POM y Commands 2**  
-   - Implementación del patrón Page Object Model (POM) y comandos avanzados.  
-7. **Clase 7 - Reporter**  
-   - Generación de reportes de pruebas.  
-8. **Clase 8 - Interacciones con el navegador**  
-   - Manejo de ventanas, pestañas y navegación.  
-9. **Clase 9 - cy.session**  
-   - Optimización de pruebas con gestión de sesiones.  
-10. **Clase 10 - Aserciones**  
-    - Validaciones y verificaciones en las pruebas.  
-11. **Clase 11 - API Testing**  
-    - Pruebas de APIs con Cypress.  
-12. **Clase 12 - GitHub Actions CI/CD**  
-    - Integración continua y despliegue continuo con GitHub Actions.  
-
-### Examen Final  
-- Evaluación de los conocimientos adquiridos durante el curso.  
+This repository showcases end-to-end automated testing practices using **Cypress** and **JavaScript**, focused on building reliable and maintainable test suites for real-world web applications.
 
 ---
 
-## Mi progreso  
+## ✔ Automation Coverage
 
-Cada día subo lo que voy aprendiendo, junto con ejemplos de código y reflexiones sobre cómo aplicarlo en un entorno real. Aquí puedes ver mi avance:  
+The automated tests cover:
 
-- **Día 9:** Uso de `cy.session()` para optimizar pruebas de autenticación.  
-- **Día 10:** Implementación de aserciones básicas en la página de Sauce Demo.  
-- **Próximos temas:** API Testing, GitHub Actions y más.  
+- User authentication flows  
+- Form validation scenarios  
+- UI interactions and navigation  
+- Session handling for test optimization  
+- API testing and request validation  
+- Real user interaction simulation  
+- Assertions and validation strategies  
 
 ---
 
-## Cómo usar este repositorio  
+## ✔ Testing Architecture & Practices
 
-1. Clona el repositorio:  
-   ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-2. Instala las dependencias:
+This project demonstrates:
 
-   ```bash
-bash
-Copy
+- Page Object Model (POM) structure  
+- Custom Cypress commands for reusability  
+- Fixture-based test data management  
+- Reliable selectors and assertions  
+- Session handling to optimize authentication flows  
+- Reporter configuration for test results  
+
+---
+
+## ✔ Continuous Integration
+
+- GitHub Actions CI pipeline *(in progress)*  
+
+---
+
+## 🛠 Tools & Technologies
+
+- Cypress  
+- JavaScript  
+- Git  
+- GitHub Actions *(in progress)*  
+
+---
+
+## 🎯 Purpose
+
+This project was created to strengthen automation testing skills and apply industry-standard practices for building scalable and maintainable E2E test suites.
+
+---
+
+## 📸 Test Execution
+
+Run Cypress locally:
+
+```bash
 npx cypress open
-Tecnologías utilizadas
-Cypress
 
-JavaScript
+---
 
-GitHub Actions (próximamente)
+## 📫 Contact
 
-Contribuciones
-Este repositorio es parte de mi aprendizaje personal, pero si tienes sugerencias, mejoras o comentarios, ¡no dudes en abrir un issue o enviar un pull request!
-
-Recursos adicionales
-Documentación oficial de Cypress
-
-Curso en Galiclerc
-
-Contacto
-Si quieres saber más sobre mi proceso de aprendizaje o tienes alguna pregunta, puedes contactarme a través de LinkedIn o por correo electrónico: juanmgenova@gmail.com.
-
-Licencia
-Este proyecto está bajo la licencia MIT.
-
-
+**Juan María Génova**  
+📧 juanmgenova@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/TU-USUARIO
