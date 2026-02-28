@@ -80,7 +80,7 @@ Documentación oficial de Cypress
 Curso en Galiclerc
 
 Contacto
-Si quieres saber más sobre mi proceso de aprendizaje o tienes alguna pregunta, puedes contactarme a través de LinkedIn o por correo electrónico: tu-email@example.com.
+Si quieres saber más sobre mi proceso de aprendizaje o tienes alguna pregunta, puedes contactarme a través de LinkedIn o por correo electrónico: juanmgenova@gmail.com.
 
 Licencia
 Este proyecto está bajo la licencia MIT.
