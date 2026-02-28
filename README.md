@@ -61,10 +61,5 @@ npx cypress open
 
 **Juan María Génova**  
 📧 juanmgenova@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/TU-USUARIO
+🔗 LinkedIn: https://www.linkedin.com/in/juan-genova/
 
-## 📫 Contact
-
-**Juan María Génova**  
-📧 juanmgenova@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/TU-USUARIO
