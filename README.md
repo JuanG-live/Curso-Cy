@@ -51,15 +51,17 @@ This project demonstrates:
 This project was created to strengthen automation testing skills and apply industry-standard practices for building scalable and maintainable E2E test suites.
 
 ---
-
-## 📸 Test Execution
-
-Run Cypress locally:
-
-```bash
+```
 npx cypress open
+```
 
 ---
+
+## 📫 Contact
+
+**Juan María Génova**  
+📧 juanmgenova@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/TU-USUARIO
 
 ## 📫 Contact
 
